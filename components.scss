@@ -1,0 +1,5 @@
+@each $palette-color-prefix, $palette-color-variables in get-background-colors-palette($range-background-colors-support-extra-colors-palette, $range-background-colors-support-skip-colors-palette) {
+    .#{$background-colors-class-prefix}-#{$palette-color-prefix} {
+        @include range-colors(parse-map($range-background-colors-helpers-parser, $palette-color-variables));
+    }
+}
