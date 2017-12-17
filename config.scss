@@ -1,10 +1,19 @@
 $range-background-colors-helpers-parser: (
+    outline-color: null,
+    border-color: null,
+    background-color: null,
+    focus-outline-color: null,
+    focus-border-color: null,
     thumb-border-color: 'background-inner-color',
+    thumb-background-color: color,
     focus-thumb-border-color: null,
-    thumb-background: color,
-    focus-thumb-background: null,
-    track-background: 'background-inner-color',
-    focus-track-background: 'background-inner-color'
+    focus-thumb-background-color: null,
+    disabled-thumb-border-color: null,
+    disabled-thumb-background-color: null,
+    track-border-color: null,
+    track-background-color: 'background-inner-color',
+    focus-track-background-color: 'background-inner-color',
+    disabled-track-background-color: null
 ) !default;
 
 $range-background-colors-support-extra-colors-palette: () !default;
